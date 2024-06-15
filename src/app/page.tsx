@@ -1,9 +1,13 @@
-import Image from "next/image";
+'use client'
+
+import Form from '../components/Form'
+
+
 
 export default function Home() {
   return (
     <main className="size-screen">
-      Hello world!
+      <Form />
     </main>
   );
 }
